@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Program"
+            android:icon="@drawable/ic_melding"
+            android:title="Program" />
+        <item
+            android:id="@+id/nav_Seminar"
+            android:icon="@drawable/ic_sykkel"
+            android:title="Seminar" />
+        <item
+            android:id="@+id/nav_Aktiviteter"
+            android:icon="@drawable/ic_hus"
+            android:title="Aktiviteter" />
+    </group>
+
+    <item android:title="Komuniser">
+        <menu>
+            <item
+                android:id="@+id/nav_Facebook"
+                android:icon="@drawable/ic_telefon"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_Twitter"
+                android:icon="@drawable/ic_tv"
+                android:title="Twitter" />
+        </menu>
+
+    </item>
+
+</menu>
